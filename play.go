@@ -24,7 +24,7 @@ import (
 	_ "golang.org/x/tools/playground"
 )
 
-var scripts = []string{"prism.js", "jquery-ui.js"}
+var scripts = []string{"prism.js", "jquery.js", "jquery-ui.js", "playground.js", "play.js"}
 
 func playScript(root, transport string) {
 	modTime := time.Now()
